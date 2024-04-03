@@ -1,0 +1,42 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.bg-blue {
+    background-color: #48afff;
+}
+
+.nav-height {
+    height: 4.5rem;
+}
+
+.border-none {
+    border: none;
+}
+
+.input-width {
+    height: 42px;
+    background-color: white;
+    width: 30rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* border: 1px solid black; */
+    border-radius: 7px 0px 0px 7px;
+    border-right:none;
+    outline: none;
+    
+}
+/* .input-width:focus{
+    border: 1px solid black; 
+    border-left:none;
+} */
+
+.input-icon {
+    height: 42px;
+    background-color: white;
+    width: 40px;
+    border-radius: 0px 7px 7px 0px;
+    background-color: white;
+    color: #48afff;
+}
