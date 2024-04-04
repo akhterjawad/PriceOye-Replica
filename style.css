@@ -18,7 +18,7 @@ box-sizing: border-box;
 .input-width {
     height: 42px;
     background-color: white;
-    width: 30rem;
+    width: 27rem;
     padding-left: 10px;
     padding-right: 10px;
     /* border: 1px solid black; */
@@ -39,4 +39,10 @@ box-sizing: border-box;
     border-radius: 0px 7px 7px 0px;
     background-color: white;
     color: #48afff;
+}
+.width1{
+    width: 230px;
+}
+.margin0{
+    margin-left: -9%;
 }
