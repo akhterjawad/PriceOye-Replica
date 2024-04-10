@@ -1,14 +1,34 @@
-*{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+body {
+    background-color: #f1f3f6;
+}
+
 .bg-blue {
     background-color: #48afff;
 }
 
 .nav-height {
     height: 4.5rem;
+}
+
+.strike1 {
+    font-size: 0.9rem;
+    color: red;
+}
+
+.strike2 {
+    /* font-size: ; */
+    color: black !important;
+}
+
+.card-button-font-size {
+    font-size: 0.6rem;
+
 }
 
 .border-none {
@@ -23,10 +43,11 @@ box-sizing: border-box;
     padding-right: 10px;
     /* border: 1px solid black; */
     border-radius: 7px 0px 0px 7px;
-    border-right:none;
+    border-right: none;
     outline: none;
-    
+
 }
+
 /* .input-width:focus{
     border: 1px solid black; 
     border-left:none;
@@ -40,9 +61,67 @@ box-sizing: border-box;
     background-color: white;
     color: #48afff;
 }
-.width1{
-    width: 230px;
+
+.navbar-Position {
+    top: 0px;
+    z-index: 100;
 }
-.margin0{
+
+.owl-carousel2 {
+    margin-top: 80px !important;
+}
+
+.width1 {
+    width: 190px;
+    text-align: end !important;
+}
+
+.margin0 {
     margin-left: -9%;
+}
+
+.width2 {
+    width: 100%;
+}
+
+.c-b {
+    border-width: 20%;
+    border: solid #f1f3f6;
+}
+
+.m-b-0 {
+    margin-bottom: 0px;
+}
+
+.back-img {
+    background-image: url(./image/section-earbuds-bg-md.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover 300px;
+}
+
+.wrap1 {
+    flex-wrap: wrap !important;
+}
+
+.opasity {
+    opacity: 0;
+}
+
+.card-width {
+    width: 250px;
+    height: 320px;
+}
+
+.card-img-width {
+    width: 120px;
+    height: 120px;
+}
+
+div .card-width {
+    background-color: #ffff;
+}
+
+.align-content-evenly1 {
+    align-content: space-evenly;
 }
