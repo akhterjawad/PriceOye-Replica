@@ -225,7 +225,7 @@ div .card-width {
 }
 
 
-.btns {  
+.btns {
     flex-wrap: wrap;
     padding: 0.8rem;
     display: flex;
@@ -243,6 +243,18 @@ div .card-width {
     border: none;
     border-radius: 8px;
 }
+
+.card-width2 {
+    width: 200px !important;
+    height: 480px;
+    background-color: #ffff;
+}
+
+.card-button-font-size2 {
+    font-size: 0.6rem !important;
+
+}
+
 
 .btns button:hover {
 
