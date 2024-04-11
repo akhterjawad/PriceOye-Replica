@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="hamburger.css">
 </head>
@@ -32,7 +33,8 @@
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <div class=" d-flex position-fixed navbar-Position bg-blue container-fluid nav-height  align-items-center justify-content-between">
+    <div
+        class=" d-flex position-fixed navbar-Position bg-blue container-fluid nav-height  align-items-center justify-content-between">
         <div class=" d-flex bg-blue gap-4 align-items-center">
             <div class="mb-2 ">
                 <div class="navigation">
@@ -45,11 +47,15 @@
 
                     <nav class="navbar">
                         <ul class="nav-list">
-                            <li class="menu"><a href="#" class="menu">Home</a></li>
-                            <li class="menu"><a href="#" class="menu">about</a></li>
-                            <li class="menu"><a href="#" class="menu">servic</a></li>
-                            <li class="menu"><a href="#" class="menu">projec</a></li>
-                            <li class="menu"><a href="#" class="menu">contact</a></li>
+                            <li class="menu"><a href="#" class="menu"><i class="fa-solid fa-house"></i> Home</a></li>
+                            <li class="menu"><a href="#" class="menu"><i class="fa fa-user" aria-hidden="true"></i>
+                                    About</a></li>
+                            <li class="menu"><a href="#" class="menu"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                                    Servics</a></li>
+                            <li class="menu"><a href="#" class="menu"><i class="fa fa-commenting"
+                                        aria-hidden="true"></i> Feedback</a></li>
+                            <li class="menu"><a href="#" class="menu"><i class="fa fa-phone" aria-hidden="true"></i>
+                                    Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -59,13 +65,13 @@
             </div>
         </div>
         <div class="d-flex align-items-center margin0 d-none  d-xl-flex"><input class=" border-none input-width "
-                type="text">
+                type="text" placeholder="search...">
             <div class="input-icon d-flex align-items-center justify-content-center ">
                 <i class="fa-solid fa-magnifying-glass-location"></i>
             </div>
         </div>
         <div class="d-flex align-items-center justify-content-center gap-3">
-            <div class=" "><button type="button" style="color: #48afff;" class="btn btn-light">Login</button>
+            <div class=" "><button type="button" class="btn btn-light">Login</button>
             </div>
             <div class=" "><button type="button" class="btn btn-outline-dark d-none  d-sm-flex">Register</button>
             </div>
@@ -116,13 +122,13 @@
         </div>
         <div class="">
             <div
-                class="  d-flex  justify-content-evenly wrap1      align-content-evenly1  gap-5 card-parent-height p-4">
+                class=" back-img2 d-flex  justify-content-evenly wrap1      align-content-evenly1  gap-2 card-parent-height p-4">
                 <div class="rounded  card-width  p-2 ">
                     <div class=" text-center  p-2"><img src="./image/phone3.webp" class="card-img-width "
                             alt="no image"></div>
                     <p class="mt-1 mb-2"> latestIphone 15 promax</p>
                     <h4 class="mt-5"><sup>RS</sup> 4,299</h4>
-                    <div class=" fw-lighter d-flex align-items-center justify-content-between">
+                    <div class=" fw-lighter wrap1 d-flex align-items-center justify-content-between">
                         <div class="">
                             <p><strike class="strike1 mt-3">
                                     <sup class="strike2">RS</sup>
@@ -151,7 +157,7 @@
                 </div>
             </div>
         </div>
-        <div class="  d-flex  justify-content-evenly wrap1      align-content-evenly1  gap-5 card-parent-height p-4">
+        <div class="  d-flex  justify-content-evenly wrap1      align-content-evenly1  gap-2 card-parent-height p-4">
             <div class="rounded  card-width  p-2 ">
                 <div class=" text-center  p-2"><img src="./image/phone3.webp" class="card-img-width " alt="no image">
                 </div>
@@ -177,6 +183,115 @@
     <h4 class="text-center mt-3">Best Seller</h4>
     <p class="text-center">Get the best prices in town</p>
 
+    <div class="media-1 media-2 grid-p border grid-m rounded">
+        <div class="border bg-white rounded" id="grid-c1">
+            <h6 class="m-3"><a href="https://priceoye.pk/mobiles/infinix/infinix-note-40-pro"
+                    class="text-decoration-none text-black">Infinix Note 40 Pro</a></h6>
+            <div class="border text-center"><img src="./image/infinix-note-40-pro-pakistan-priceoye-ksuka-500x500.webp"
+                    width="70%" alt=""></div>
+            <h5 class="m-2"><sup>RS</sup> 4,299</h5>
+
+            <div class=" fw-lighter wrap1 container-fluid mt-2 d-flex align-items-center justify-content-between gap-2 mb-3">
+                <div class="">
+                    <h5><strike class="strike1 ">
+                            <sup class="strike2">RS</sup>
+                            <span class="strike2">8,000</span>
+                        </strike>
+                    </h5>
+                </div>
+                <div><button type="button" class="btn  button-grid btn-outline-success mb-2">33%
+                        OFF</button></div>
+            </div>
+        </div>
+        <div class="grid-cm border bg-white rounded" id="grid-c2">
+            <div class="d-flex justify-content-evenly gap-2 border wrap1 mt-2">
+                <div class="border"><a href="https://priceoye.pk/wireless-earbuds/audionic/audionic-airbud-550"
+                        class="text-decoration-none text-black">Wireless Earbuds</a></div>
+                <div class="border grid-card2-width "><img
+                        src="./image/audionic-airbud-550-pakistan-priceoye-o6fve-270x270.webp" width="100%" alt="">
+                </div>
+            </div>
+            <h5 class="m-2"><sup>RS</sup> 4,299</h5>
+
+            <div class=" fw-lighter wrap1 container-fluid mt-2 d-flex align-items-center justify-content-between gap-2 ">
+                <div class="">
+                    <h5><strike class="strike1 ">
+                            <sup class="strike2">RS</sup>
+                            <span class="strike2">8,000</span>
+                        </strike>
+                    </h5>
+                </div>
+                <div><button type="button" class="btn  button-grid btn-outline-success mb-2">33%
+                        OFF</button></div>
+            </div>
+        </div>
+        <div class="grid-cm border bg-white rounded" id="grid-c3">
+            <div class="d-flex justify-content-evenly gap-2 border wrap1 mt-2">
+                <div class="border"><a href="https://priceoye.pk/wireless-earbuds/audionic/audionic-airbud-550"
+                        class="text-decoration-none text-black">Wireless Earbuds</a></div>
+                <div class="border grid-card2-width "><img
+                        src="./image/audionic-airbud-550-pakistan-priceoye-o6fve-270x270.webp" width="100%" alt="">
+                </div>
+            </div>
+            <h5 class="m-2"><sup>RS</sup> 4,299</h5>
+
+            <div class=" fw-lighter wrap1 container-fluid mt-2 d-flex align-items-center justify-content-between gap-2 ">
+                <div class="">
+                    <h5><strike class="strike1 ">
+                            <sup class="strike2">RS</sup>
+                            <span class="strike2">8,000</span>
+                        </strike>
+                    </h5>
+                </div>
+                <div><button type="button" class="btn  button-grid btn-outline-success mb-2">33%
+                        OFF</button></div>
+            </div>
+        </div>
+        <div class="grid-cm border bg-white rounded" id="grid-c4">
+            <div class="d-flex justify-content-evenly gap-2 border wrap1 mt-2">
+                <div class="border"><a href="https://priceoye.pk/wireless-earbuds/audionic/audionic-airbud-550"
+                        class="text-decoration-none text-black">Wireless Earbuds</a></div>
+                <div class="border grid-card2-width "><img
+                        src="./image/audionic-airbud-550-pakistan-priceoye-o6fve-270x270.webp" width="100%" alt="">
+                </div>
+            </div>
+            <h5 class="m-2"><sup>RS</sup> 4,299</h5>
+
+            <div class=" fw-lighter wrap1 container-fluid mt-2 d-flex align-items-center justify-content-between gap-2 ">
+                <div class="">
+                    <h5><strike class="strike1 ">
+                            <sup class="strike2">RS</sup>
+                            <span class="strike2">8,000</span>
+                        </strike>
+                    </h5>
+                </div>
+                <div><button type="button" class="btn  button-grid btn-outline-success mb-2">33%
+                        OFF</button></div>
+            </div>
+        </div>
+        <div class="grid-cm border bg-white rounded" id="grid-c5">
+            <div class="d-flex justify-content-evenly gap-2 border wrap1 mt-2">
+                <div class="border"><a href="https://priceoye.pk/wireless-earbuds/audionic/audionic-airbud-550"
+                        class="text-decoration-none text-black">Wireless Earbuds</a></div>
+                <div class="border grid-card2-width "><img
+                        src="./image/audionic-airbud-550-pakistan-priceoye-o6fve-270x270.webp" width="100%" alt="">
+                </div>
+            </div>
+            <h5 class="m-2"><sup>RS</sup> 4,299</h5>
+
+            <div class=" fw-lighter wrap1 container-fluid mt-2 d-flex align-items-center justify-content-between gap-2 ">
+                <div class="">
+                    <h5><strike class="strike1 ">
+                            <sup class="strike2">RS</sup>
+                            <span class="strike2">8,000</span>
+                        </strike>
+                    </h5>
+                </div>
+                <div><button type="button" class="btn  button-grid btn-outline-success mb-2">33%
+                        OFF</button></div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
