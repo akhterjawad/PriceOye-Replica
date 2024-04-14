@@ -124,6 +124,7 @@ body {
     background-attachment: scroll;
     background-size: 100% !important;
 }
+
 .back-3img {
     z-index: 55;
 
@@ -132,6 +133,17 @@ body {
     background-attachment: scroll;
     background-size: 100% !important;
 }
+
+/* .card-width2 :hover{
+    background-color: antiquewhite;
+
+} */
+
+.card-width {
+    /* z-index: 55 !important; */
+    cursor: pointer;
+}
+
 .back-4img {
     z-index: 55;
 
@@ -354,25 +366,22 @@ p a :hover {
 
 }
 
-/*  
-@media (max-width:528px) {
-    .blue-card {
-        width: 300px !important;
-
-    }
-
-    .pr-2 {
-        padding-right: 0% !important;
-    }
-
-    .pl-2 {
-        padding-right: 0% !important;
-    }
-}  */
-
 .button1 {
-    background-color: #fba338;
-    padding: 10px 25px;
+    padding: 6px 18px;
+    /* padding-bottom: 11px; */
+    background-color: #f2d43d;
+    font-size: 0.8rem;
+}
+
+
+@media (max-width:528px) {
+
+    .Copyright {
+        font-size: 1rem;
+    }
+
+}
+.Know{
     font-size: 1rem;
 }
 
