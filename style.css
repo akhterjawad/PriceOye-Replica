@@ -244,11 +244,44 @@ div .card-width {
     border-radius: 8px;
 }
 
+/* .gap-6{
+    column-gap: 150px;
+    row-gap: 20px;
+} */
+
 .card-width2 {
     width: 200px !important;
     height: 480px;
     background-color: #ffff;
 }
+
+.bg-blue-footer {
+    background-color: #48afff;
+    /* height: 300px; */
+}
+
+.bg-blue-footer-2 {
+    background-color: #2a98ed;
+    /* height: 30px; */
+}
+
+.pr-footer {
+    padding-right: 13%;
+}
+
+p a {
+    font-size: 0.8rem;
+    /* margin: 0 !important; */
+}
+p a :hover{
+    color: yellow !important;
+    /* transition: all;
+    transition-duration: 0.5s; */
+}
+.pr-footer-2{
+    padding-right: 40%;
+}
+
 
 .card-button-font-size2 {
     font-size: 0.6rem !important;
