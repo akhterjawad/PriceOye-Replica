@@ -8,12 +8,31 @@ body {
     background-color: #f1f3f6;
 }
 
+.m-7 {
+    margin: 0px 0px 0px !important;
+}
+
+.mt-0 {
+    position: fixed;
+    top: 0%;
+    z-index: 80;
+    text-align: center !important;
+}
+
 .bg-blue {
     background-color: #48afff;
 }
 
+.bg-blue1 {
+    background-color: #0885e6;
+}
+
 .nav-height {
     height: 4.5rem;
+}
+
+.mt-6 {
+    margin-top: 71px;
 }
 
 .strike1 {
@@ -82,7 +101,7 @@ body {
 }
 
 .owl-carousel2 {
-    margin-top: 80px !important;
+    margin-top: 0px !important;
 }
 
 .width1 {
@@ -113,7 +132,9 @@ body {
     background-image: url(./image/section-earbuds-bg-md.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
+    /* background-size: cover height: 300px  !important; */
     background-size: 100% !important;
+
 }
 
 .back-2img {
@@ -134,6 +155,15 @@ body {
     background-size: 100% !important;
 }
 
+
+.back-4img {
+    z-index: 55;
+    
+    background-image: url(./image/section-tablet-bg-md.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% !important;
+}
 /* .card-width2 :hover{
     background-color: antiquewhite;
 
@@ -142,15 +172,6 @@ body {
 .card-width {
     /* z-index: 55 !important; */
     cursor: pointer;
-}
-
-.back-4img {
-    z-index: 55;
-
-    background-image: url(./image/section-tablet-bg-md.png);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: 100% !important;
 }
 
 
@@ -206,6 +227,46 @@ div .card-width {
     .media-1 {
         grid-template-columns: 50% 50%;
 
+    }
+    .back-img {
+        z-index: 55;
+    
+        background-image: url(./image/section-earbuds-bg-md.png);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100% 200px  !important
+        
+    }
+    
+    .back-2img {
+        z-index: 55;
+    
+        background-image: url(./image/section-smart-watches-bg-md\ \(1\).png);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 100% 200px !important
+        
+    }
+    
+    .back-3img {
+        z-index: 55;
+    
+        background-image: url(./image/section-mobiles-bg-md.png);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size:100% 200px !important;
+        
+    }
+    
+    
+    .back-4img {
+        z-index: 55;
+        
+        background-image: url(./image/section-tablet-bg-md.png);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size:100% 200px !important;
+        
     }
 
     .grid-main-image {
@@ -369,7 +430,7 @@ p a :hover {
 .button1 {
     padding: 6px 18px;
     /* padding-bottom: 11px; */
-    background-color: #f2d43d;
+    background-color: #fba338;
     font-size: 0.8rem;
 }
 
@@ -379,9 +440,13 @@ p a :hover {
     .Copyright {
         font-size: 1rem;
     }
+    .forcostumer{
+        font-size: 0.8rem;
+    }
 
 }
-.Know{
+
+.Know {
     font-size: 1rem;
 }
 
