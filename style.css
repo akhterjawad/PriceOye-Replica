@@ -137,16 +137,8 @@ body {
 
 }
 
+
 .back-2img {
-    z-index: 55;
-
-    background-image: url(./image/section-smart-watches-bg-md\ \(1\).png);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: 100% !important;
-}
-
-.back-3img {
     z-index: 55;
 
     background-image: url(./image/section-mobiles-bg-md.png);
@@ -155,15 +147,25 @@ body {
     background-size: 100% !important;
 }
 
+.back-3img {
+    z-index: 55;
+
+    background-image: url(./image/section-smart-watches-bg-md\ \(1\).png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% !important;
+}
+
 
 .back-4img {
     z-index: 55;
-    
+
     background-image: url(./image/section-tablet-bg-md.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: 100% !important;
 }
+
 /* .card-width2 :hover{
     background-color: antiquewhite;
 
@@ -228,45 +230,44 @@ div .card-width {
         grid-template-columns: 50% 50%;
 
     }
+
     .back-img {
         z-index: 55;
-    
+
         background-image: url(./image/section-earbuds-bg-md.png);
         background-repeat: no-repeat;
         background-attachment: scroll;
-        background-size: 100% 200px  !important
-        
+        background-size: 100% 200px !important
     }
-    
+
     .back-2img {
         z-index: 55;
-    
+
         background-image: url(./image/section-smart-watches-bg-md\ \(1\).png);
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-size: 100% 200px !important
-        
     }
-    
+
     .back-3img {
         z-index: 55;
-    
+
         background-image: url(./image/section-mobiles-bg-md.png);
         background-repeat: no-repeat;
         background-attachment: scroll;
-        background-size:100% 200px !important;
-        
+        background-size: 100% 200px !important;
+
     }
-    
-    
+
+
     .back-4img {
         z-index: 55;
-        
+
         background-image: url(./image/section-tablet-bg-md.png);
         background-repeat: no-repeat;
         background-attachment: scroll;
-        background-size:100% 200px !important;
-        
+        background-size: 100% 200px !important;
+
     }
 
     .grid-main-image {
@@ -279,12 +280,13 @@ div .card-width {
     }
 
     .back-2img {
-        background-color: #ef7219;
+        background-color: #f2d43d;
     }
 
     .back-3img {
-        background-color: #f2d43d;
+        background-color: #ef7219;
     }
+
 
     .back-4img {
         background-color: #f83e87;
@@ -408,6 +410,7 @@ p a :hover {
 
     background-color: #48afff;
     color: white;
+    padding: 13px;
     transition: 0.5s;
     font-size: 0.9rem;
 }
@@ -440,7 +443,8 @@ p a :hover {
     .Copyright {
         font-size: 1rem;
     }
-    .forcostumer{
+
+    .forcostumer {
         font-size: 0.8rem;
     }
 
