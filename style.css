@@ -447,6 +447,9 @@ p a :hover {
     .forcostumer {
         font-size: 0.8rem;
     }
+    .crosal-t-small{
+        font-size: 0.7rem;
+    }
 
 }
 
@@ -469,6 +472,6 @@ p a :hover {
     width: 230px;
 }
 
-.hover-1 :hover {
+/* .hover-1 :hover {
     border-bottom: 3px solid #48afff;
-}
+} */
