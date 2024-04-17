@@ -436,6 +436,84 @@ p a :hover {
     font-size: 0.8rem;
 }
 
+.textblue1 {
+    color: #0078d4;
+}
+
+.bg-blue2 {
+    background-image: linear-gradient(to right, #f83e87, #f2d43d, #ef7219, #f2d43d, #f83e87);
+}
+
+.tablet-crosal {
+    position: relative;
+    bottom: 8px;
+}
+
+.verification img {
+    width: 25px;
+}
+
+.verification p {
+    margin-top: 19px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #48afff;
+
+}
+
+.Tt-main {
+    padding-bottom: 20px;
+}
+
+.Tt-card {
+    padding: 10px
+}
+
+.Tt {
+    font-size: 15px;
+
+}
+
+.tablet-crosal-p {
+    position: relative;
+    bottom: 5px;
+}
+
+.review-text {
+    font-size: 13px;
+}
+
+.date {
+    font-size: 0.8rem;
+    color: #808080;
+}
+
+.review {
+    width: 8%;
+    /* height: 150px; */
+}
+
+@media (max-width:350px) {
+    .width1 {
+        width: 170px;
+    }
+
+    .tablet-crosal {
+        position: relative;
+        bottom: 29px;
+    }
+
+    .tablet-crosal-p {
+        position: relative;
+        bottom: 22px;
+    }
+
+    .start-img {
+        text-align: center !important;
+        width: 100%;
+
+    }
+}
 
 @media (max-width:528px) {
 
@@ -443,9 +521,22 @@ p a :hover {
         font-size: 1rem;
     }
 
-    .forcostumer {
-        font-size: 0.8rem;
+    /* .review {
+        width: 50px;
+         height: 150px; 
+    } */
+
+    .tablet-crosal {
+        padding-top: 0px !important;
     }
+
+    .user-alert {
+        font-size: 1rem;
+    }
+
+    /* .login{
+        margin-right: 10px !important;
+    }  */
 
     .crosal-t-small {
         font-size: 0.7rem;
