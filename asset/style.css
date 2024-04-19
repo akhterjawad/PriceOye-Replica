@@ -292,12 +292,53 @@ div .card-width {
     }
 }
 
+.text-blue {
+    color: #48afff;
+}
 
+.shadow1 {
+    box-shadow: -0.1px -0.1px 2px #000 !important;
+    opacity: 0.9;
+    background-color: #59b6fe;
+
+    width: 100%;
+}
+
+.position {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.hover3:hover {
+    color: #48afff !important;
+    transition: all;
+    transition-duration: 0.5s !important;
+    cursor: pointer;
+}
+
+.hover2:hover {
+    color: #48afff !important;
+    transition: all;
+    transition-duration: 0.5s !important;
+    cursor: pointer;
+    background-color: whitesmoke;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.radius {
+    border-radius: 30px;
+    outline: none;
+    border: none;
+
+
+}
 
 @media (max-width:800px) {
     .grid-m {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin: 0px 10px;
+        /* column-gap: 10px !important; */
     }
 
     .grid-main-image {
@@ -498,6 +539,10 @@ p a :hover {
         width: 170px;
     }
 
+    .button-size {
+        font-size: 0.8rem;
+    }
+
     .tablet-crosal {
         position: relative;
         bottom: 29px;
@@ -530,6 +575,16 @@ p a :hover {
         padding-top: 0px !important;
     }
 
+    .responsive {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .m-b-1 {
+        padding-bottom: 130px;
+        ;
+    }
+
     .user-alert {
         font-size: 1rem;
     }
@@ -542,6 +597,26 @@ p a :hover {
         font-size: 0.7rem;
     }
 
+}
+
+@media (max-width:322px) {
+    .m-b-1 {
+        padding-bottom: 160px;
+    }
+
+    .button-size {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width:294px) {
+    .m-b-1 {
+        padding-bottom: 215px;
+    }
+
+    /* .button-size{
+        font-size: 0.4rem;
+    } */
 }
 
 .Know {
