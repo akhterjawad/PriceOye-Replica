@@ -608,7 +608,9 @@ p a :hover {
         font-size: 0.6rem;
     }
 }
-
+.pb1{
+    height: 350px !important;
+}
 @media (max-width:294px) {
     .m-b-1 {
         padding-bottom: 215px;
