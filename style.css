@@ -530,14 +530,16 @@ p a :hover {
     width: 8%;
     /* height: 150px; */
 }
+
 .position {
     width: 100%;
     position: fixed;
     bottom: 0;
 }
+
 @media (max-width:528px) {
 
-    
+
 
     .forcostumer {
         font-size: 0.8rem;
